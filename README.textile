@@ -16,3 +16,30 @@ h2. Key points
 # Plugins possible -- for example a plugin to support logic gate emulation
    similar to (but simpler than) HADES
 
+h2. UI
+
+Buttons for modes and drawing shapes to the left, keyboard shortcuts for faster
+ editing but not necessary.
+
+Modes for moving objects around and sizing etc; moving yourself around; zooming;
+ editing text; drawing lines.
+
+All modes revert to default mode if you press [esc] (or twice to first lose
+ focus in current mode, then revert to default mode).
+
+h3. Modes
+
+* Default (arrow), shortcut: <space> -- click to focus, drag, resize, [esc], etc.. (double click text -> Text Mode)
+* [H]and -- (click'n'drag)* -- [esc] -> Default Mode
+* [Z]oom -- (click'n'drag-horizontally)* -- [esc] -> Default Mode
+* [T]ext -- click to focus, write, [esc] to lose focus, etc.., [esc] -> Default Mode
+* Draw line modes: -- click, click, click, click (not hold-release..)
+** [L]ine -- simple straight line
+** [C]urve -- bezier curve
+
+h3. Drawing shapes
+
+* ([R]ectangle || click on rectangle) + click to place
+* ([E]llipse || click on ellipse) + click to place
+* click on shape + click to place
+
